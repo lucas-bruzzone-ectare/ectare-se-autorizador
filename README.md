@@ -1,0 +1,1 @@
+# ectare-se-autorizador
