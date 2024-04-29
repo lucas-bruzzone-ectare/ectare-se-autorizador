@@ -1,0 +1,167 @@
+<mxfile host="Electron" modified="2024-04-29T17:59:53.481Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="aexJciTAHVWekflQr-4m" version="22.1.16" type="device" pages="3">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Flugrama FEPAS - Autorizador">
+    <mxGraphModel dx="926" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="EzLDrlJiap-YBhieLcaM-4" value="FEPAS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="80" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-7" value="Autorizador&lt;br&gt;E-ctare" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="80" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="EzLDrlJiap-YBhieLcaM-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="120.03999999999999" as="sourcePoint" />
+            <mxPoint x="300" y="120.00000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.025;exitY=0.675;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.013;entryY=0.675;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EzLDrlJiap-YBhieLcaM-7" target="EzLDrlJiap-YBhieLcaM-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="260" as="sourcePoint" />
+            <mxPoint x="200" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-25" value="&lt;div&gt;0800 - Logon (bit 03 = 910000 e bit 70 = 001)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="165" y="90" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-26" value="FEPAS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="440" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-27" value="Autorizador&lt;br&gt;E-ctare" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="440" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="EzLDrlJiap-YBhieLcaM-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="480.03999999999996" as="sourcePoint" />
+            <mxPoint x="300" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.025;exitY=0.675;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.013;entryY=0.675;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EzLDrlJiap-YBhieLcaM-27" target="EzLDrlJiap-YBhieLcaM-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="620" as="sourcePoint" />
+            <mxPoint x="200" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="521" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-30" value="&lt;div&gt;0800 - Carga de Tabelas (bit 03 = 910000 e bit 70 = 800)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="135" y="450" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-31" value="FEPAS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="759" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-32" value="Autorizador&lt;br&gt;E-ctare" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="759" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.025;exitY=0.675;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.013;entryY=0.675;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EzLDrlJiap-YBhieLcaM-32" target="EzLDrlJiap-YBhieLcaM-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="939" as="sourcePoint" />
+            <mxPoint x="190" y="889" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-35" value="&lt;div&gt;0800 - Carga de Tabelas (bit 03 = 910000 e bit70 = [8xx ..998])&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="769" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-37" value="&lt;div&gt;0810 - Resposta (bit 70 = 001 ou 800)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="185" y="130" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-38" value="&lt;div&gt;0810 - Resposta (bit 70 = 001 ou 800)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="490" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-39" value="&lt;div&gt;0810 - Resposta (bit 70 = 001 ou 800)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="174" y="809" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-42" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Corresponde à mensagem de Logon, para que o Autorizador verifique se o estabelecimento comercial está habilitado e também cheque sua versão de parâmetros. Na resposta, o bit 70 sinaliza o que fazer:&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;• 800 - as tabelas de parâmetros do estabelecimento estão desatualizadas; o FEPAS executa o Fluxo 2.&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;• 001 - está finalizado o processo de Logon-Carga de Tabelas, pois as tabelas de parâmetros do&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;estabelecimento estão atualizadas&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="220" width="520" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-43" value="FLUXO 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="10" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="799.04" as="sourcePoint" />
+            <mxPoint x="480" y="799" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-46" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Corresponde à primeira mensagem de Carga de Tabelas. Na resposta o bit 70 sinaliza o que fazer:&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• 801 - há mais tabelas a baixar, o FEPAS executa o &lt;b&gt;Fluxo 3&lt;/b&gt;.&lt;/div&gt;&lt;div&gt;• 999 - está finalizado o processo de Carga de Tabelas&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="560" width="520" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-47" value="FLUXO 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="370" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-48" value="FLUXO 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="690" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-49" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;div&gt;FEPAS rebate na mensagem de solicitação o bit 70 que recebeu na mensagem de resposta anterior.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Se na mensagem de resposta (0810) o bit 70 está preenchido com:&lt;/div&gt;&lt;div&gt;• 802 ..998 - FEPAS repete o Fluxo 3&lt;/div&gt;&lt;div&gt;• 999 - está finalizado o processo de Carga de Tabelas.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="920" width="520" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-51" value="&lt;h1 style=&quot;text-align: justify; font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Problema de Comunicação durante o fluxo de Logon&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;text-align: justify; font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;Quando ocorre queda na comunicação entre o FEPAS e o Autorizador, ou em caso de indisponibilidade do&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Autorizador, a mensagem de resposta não chega ao FEPAS a tempo. Nesta situação o FEPAS reenviará o Logon.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="40" width="230" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="EzLDrlJiap-YBhieLcaM-52" value="&lt;h1 style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Problema de Comunicação ou Processamento durante o fluxo de Carga de Tabelas&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;text-align: justify; font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;Quando ocorre queda na comunicação entre o FEPAS e o Autorizador, ou em caso de indisponibilidade do&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Autorizador, a mensagem de resposta não chega ao FEPAS a tempo. Nesta situação o FEPAS reenviará o Logon.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="400" width="240" height="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CAIOzUryI35Sn1zyBBky" name="Mensagens ISO-8583">
+    <mxGraphModel dx="880" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4sYbFBhwzTfrZ-bUFuKn-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="71" y="41" width="480" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5y00oeslSdQ-y9lNXhSl-4" value="Mensagem ISO-8583" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="151" y="41" width="469" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5y00oeslSdQ-y9lNXhSl-5" value="Código da Transação" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="151" y="81" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5y00oeslSdQ-y9lNXhSl-9" value="&lt;div&gt;Header&amp;nbsp;&lt;/div&gt;&lt;div&gt;(apenas TCP-IP)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="41" y="41" width="110" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5y00oeslSdQ-y9lNXhSl-10" value="&lt;div style=&quot;&quot;&gt;Primeiro mapa de&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;bits&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;(sempre presente)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1 a 64&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="250" y="81" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5y00oeslSdQ-y9lNXhSl-11" value="&lt;div&gt;Segundo mapa de bits&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(presente se mapeado para a&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;transação)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;65 a 128&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="370" y="81" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5y00oeslSdQ-y9lNXhSl-12" value="&lt;div&gt;Dados da&amp;nbsp;&lt;/div&gt;&lt;div&gt;Transação&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="81" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5y00oeslSdQ-y9lNXhSl-14" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Header&lt;/b&gt;: contem o tamanho da Mensagem ISO-8583, em quatro bytes ASCII.&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Tamanho máximo da mensagem : 9999 bytes&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Exemplo de tamanho de uma mensagem com 123 bytes&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Header = 0123&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify; font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="580" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5y00oeslSdQ-y9lNXhSl-15" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;Código da Transação&lt;/b&gt;: é um campo de quatro posições, indicando o tipo de transação&lt;br&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&amp;nbsp;Exemplo: 0800 = Abertura de Sessão&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify; font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="41" y="320" width="579" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5y00oeslSdQ-y9lNXhSl-17" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Mapas de bits&lt;/b&gt;: o primeiro mapa de bits corresponde aos campos 1 a 64 e o segundo aos campos 65 a 128. Cada bit dentro destes dois mapas codifica a presença ou ausência do dado a que se refere dentro do campo “Dados da Transação”, acima representado.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Quando determinado bit estiver ligado, significa que o respectivo dado está presente na mensagem.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;i&gt;O bit 1 é um caso especial e, quando ligado, sinaliza que o segundo mapa de bits está presente na mensagem.&amp;nbsp;&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="41" y="440" width="579" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="J5DKO_SHzQAB6CgfS1zZ-4" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Dados da Transação&lt;/b&gt;: consistem de uma sequencia de campos, sem delimitadores entre si, que definem os dados necessários nas mensagens de solicitação ou de resposta. Estes campos são enumerados de 1 a 128, cada um devidamente especificado pela norma ISO-8583. Neste documento os campos presentes na mensagem ISO-8583 são também chamados de “bits” (ex, bit 4 corresponde ao campo 4 – valor total da transação).&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Os campos podem ser numéricos, alfanuméricos e binários. Os campos numéricos e alfanuméricos possuem como conteúdo caracteres válidos em ASCII. Já os campos binários devem ser convertidos para ASCII no procedimento de montagem da mensagem.&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;A conversão é feita isolando-se cada semi-byte do número e aplicando a tabela de conversão:&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;0x00 -→ ‘0’, ..., 0x09 -→ ‘9’, 0x0a -→ ‘A’, ..., 0x0f -→ ‘F’&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Os campos podem ser de tamanho fixo ou variável. Os campos de tamanho variável, identificados por LLVar ou LLLVar, devem codificar dentro da mensagem formatada o respectivo tamanho, sendo de 00 a 99 para os definidos como LLVar, ou 00 a 999 para os LLLVar. Este tamanho é codificado antes do dado do campo propriamente dito.&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="41" y="640" width="579" height="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mIr8TaFR2KxrMuigOCG3" name="Resumo">
+    <mxGraphModel dx="880" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TV1WS6Qc_Ne7hhe_LjBf-1" value="&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Logon - Carga de Tabelas&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify; font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify; font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify; font-size: 15px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;É um processo utilizado para validar um estabelecimento comercial com o Autorizador.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Ele é utilizado para indicar se uma carga de tabelas deve ser iniciada, o que só deve ocorrer se a versão da tabela no Autorizador for diferente da versão na &lt;b style=&quot;&quot;&gt;FEPAS&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;&quot;&gt;(Front-End Payment Authorization System).&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;O Logon deve ser realizado pelo menos uma vez ao dia ou em situações específicas, como quando o &lt;b&gt;TEF &lt;/b&gt;(Transferência Eletrônica de Fundos) é colocado em operação ou diariamente em um horário específico.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;A &lt;b&gt;FEPAS &lt;/b&gt;envia a versão atual das tabelas carregadas no estabelecimento comercial durante o processo de Logon.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;O Autorizador verifica esses dados e indica a necessidade de realizar uma carga de tabelas se as tabelas estiverem desatualizadas.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Se as tabelas da &lt;b&gt;FEPAS &lt;/b&gt;estiverem desatualizadas, o processo de carga de tabelas é iniciado enviando uma mensagem 0800 com o bit 70 = 800, indicando o início do carregamento.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;O Autorizador responde à mensagem enviando informações nos bits 47, 48 e 62.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" width="760" height="310" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
